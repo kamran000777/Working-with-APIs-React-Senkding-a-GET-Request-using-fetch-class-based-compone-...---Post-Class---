@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const News = () => {
   const [lang, setLang] = useState("en");
   const [articles, setArticles] = useState([]);
-  const API__KEY = "7a60264c645891802f5b781be1da6a33";
+  const API__KEY = "b8e8db9f5abac45e8523cd77241c13da";
 
   useEffect(() => {
     fetch(
